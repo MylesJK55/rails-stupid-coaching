@@ -13,3 +13,74 @@
  *= require_tree .
  *= require_self
  */
+
+/* General styles for the document */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Style for the form */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.coach-answer {
+  background-color: rgb(235, 235, 186);
+  padding: 10px;
+  border-left: 3px solid #8b8b8b;
+}
